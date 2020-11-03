@@ -37,7 +37,7 @@ module.exports = function(App) {
                   /*.then((usr) => {usr.link.push({Link: val/*short: shortUrl.short(val, async (err, url) => await url)}) 
                   return usr.save() })*/
                   .then( () => {
-                       // squeezedURL = val;
+                    
                               shortUrl.short(val, (err, url) => {
                                     Users.findById(req.user.id)
                                     .then((usr) => {usr.link.push({Link: val, short: url  }) 
