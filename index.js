@@ -43,5 +43,3 @@ if (process.env.NODE_ENV === 'production'){
 }
 
 
-//84073497495-6sjf68pdk3p0igap085ed5b68nuea9o2.apps.googleusercontent.com
-//arBI787ngnXBEKjqgaP4DjFv
